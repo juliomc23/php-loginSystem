@@ -24,7 +24,23 @@
     transition: all 300ms;
 }
 
+.header__button--logout{
+    width: 4rem;
+    height: 2rem;
+    margin-right: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+    background-color: rgb(243, 243, 243);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
 .header__button--login a{
+    text-decoration: none;
+    color: black;
+}
+
+.header__button--logout a{
     text-decoration: none;
     color: black;
 }

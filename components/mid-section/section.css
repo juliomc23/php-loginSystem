@@ -38,7 +38,6 @@
     background-color: rgb(243, 243, 243);
     font-size: 1rem;
     cursor: pointer;
-    transition: all 300ms;
 }
 
 .article__button__see:hover{
@@ -83,5 +82,43 @@
     text-transform: uppercase;
     padding-bottom: 0.2rem;
     border-bottom: 1px solid rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+.form__createPost{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.input__titlePost{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    outline: none;
+    border: 1px solid black;
+}
+
+.textarea__postContent{
+    height: 10rem;
+    font-size: 1.5rem;
+    resize: none;
+    outline: none;
+    border: 1px solid black;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.button__createPost{
+    height: 2rem;
+    border: 1px solid black;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    font-size: 1rem;
     cursor: pointer;
 }
