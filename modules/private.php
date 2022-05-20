@@ -10,7 +10,7 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../src/css/main.css" type="text/css" rel="stylesheet">
-    <title>Login System PHP</title>
+    <title>Private part PHP</title>
 </head>
 
 <body>
